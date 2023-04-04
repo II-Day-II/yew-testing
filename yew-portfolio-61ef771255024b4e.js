@@ -200,7 +200,7 @@ function makeMutClosure(arg0, arg1, dtor, f) {
     return real;
 }
 function __wbg_adapter_16(arg0, arg1, arg2) {
-    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h94322a4a385593d8(arg0, arg1, addHeapObject(arg2));
+    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h8abdb87fa8415416(arg0, arg1, addHeapObject(arg2));
 }
 
 let stack_pointer = 128;
@@ -212,7 +212,7 @@ function addBorrowedObject(obj) {
 }
 function __wbg_adapter_19(arg0, arg1, arg2) {
     try {
-        wasm._dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h031b4ac3973e5d51(arg0, arg1, addBorrowedObject(arg2));
+        wasm._dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hdbd423805a3e611d(arg0, arg1, addBorrowedObject(arg2));
     } finally {
         heap[stack_pointer++] = undefined;
     }
@@ -580,12 +580,12 @@ function getImports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper3636 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 232, __wbg_adapter_16);
+    imports.wbg.__wbindgen_closure_wrapper3651 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 234, __wbg_adapter_16);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3761 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 253, __wbg_adapter_19);
+    imports.wbg.__wbindgen_closure_wrapper3770 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 255, __wbg_adapter_19);
         return addHeapObject(ret);
     };
 
@@ -623,7 +623,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('yew-portfolio-9032a92fba909c86_bg.wasm', import.meta.url);
+        input = new URL('yew-portfolio-61ef771255024b4e_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
